@@ -16,7 +16,7 @@ public class UserDAOImpl implements UserDAO {
     @Override
     public String createUser(User user) {
         users.add(user);
-        return "User " + user.getId() + " was created";
+        return "User " + user.getId() + " was created just now";
     }
 
     @Override

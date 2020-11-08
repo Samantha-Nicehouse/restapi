@@ -28,6 +28,7 @@ public class UserRestController {
         return user1;
     }
 
+
     @PutMapping("/user")
     public String createUser(@RequestBody User user) //expects a JSON from client converted to a User object
     {
